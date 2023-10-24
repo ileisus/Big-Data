@@ -1,0 +1,5 @@
+tf-idf is term frequency multiplied by inverse document frequency, in the context of a corpus. T e r m frequency is calculated as the occurrence of a certain word within one document. For example, if "income" appears
+5 fives in a speech of 800 words, the tf is so = 0.00625, which is useful in distinguishing words like "is", "the" that have a high absolute frequency but is almost equally common in any document. i f measure the frequency of this word across a collection of documents (the entire corpus). It's calculated
+by taking the total number of documents, dividing it by the number of doc- uments that contain a word, and calculating the logarithm. Essentially idf gives a corpus-adjusted weight for a word.
+
+Intuitively: a higher tf-idf score means the word is rarer in a corpus and vice versa.
